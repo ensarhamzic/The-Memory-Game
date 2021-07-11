@@ -1,5 +1,22 @@
 .col-4 {
-  border: 2px solid red;
+  border: 5px solid #198754;
+  border-radius: 20px;
   height: 120px;
   width: 120px;
+}
+
+.wrong {
+  background-color: red !important;
+}
+
+.right {
+  background-color: #198754 !important;
+}
+
+.wrongBorder {
+  border: 5px solid red !important;
+}
+
+.wrongColor {
+  color: red;
 }

@@ -16,30 +16,32 @@
   <body>
     <div class="container">
       <h1 class="text-center my-3">The Memory Game</h1>
-      <h3 class="text-center">Score: <span id="gameScore">0</span></h3>
+      <h2 class="text-center">Score: <span id="gameScore">0</span></h2>
       <div class="container mt-3">
         <div class="row justify-content-center">
           <div id="square1" class="col-4"></div>
-          <div id="square2" class="col-4"></div>
+          <div id="square2" class="col-4 mx-2"></div>
           <div id="square3" class="col-4"></div>
         </div>
 
-        <div class="row justify-content-center">
+        <div class="row justify-content-center mt-2">
           <div id="square4" class="col-4"></div>
-          <div id="square5" class="col-4"></div>
+          <div id="square5" class="col-4 mx-2"></div>
           <div id="square6" class="col-4"></div>
         </div>
 
-        <div class="row justify-content-center">
+        <div class="row justify-content-center mt-2">
           <div id="square7" class="col-4"></div>
-          <div id="square8" class="col-4"></div>
+          <div id="square8" class="col-4 mx-2"></div>
           <div id="square9" class="col-4"></div>
         </div>
       </div>
       <div class="text-center my-5">
-        <button id="startGame" class="btn btn-success d-inline-block px-3 py-2">
+        <button id="startGame" class="btn btn-success d-inline-block px-5 py-2">
           Start Game
         </button>
+        <audio id="rightSound" src="right.wav"></audio>
+        <audio id="wrongSound" src="wrong.wav"></audio>
       </div>
     </div>
     <script
