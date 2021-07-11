@@ -4,10 +4,49 @@
     <meta charset="UTF-8" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css"
+      integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC"
+      crossorigin="anonymous"
+    />
     <link rel="stylesheet" href="app.css" />
     <title>The Memory Game</title>
   </head>
   <body>
+    <div class="container">
+      <h1 class="text-center my-3">The Memory Game</h1>
+      <h3 class="text-center">Score: <span id="gameScore">0</span></h3>
+      <div class="container mt-3">
+        <div class="row justify-content-center">
+          <div id="square1" class="col-4"></div>
+          <div id="square2" class="col-4"></div>
+          <div id="square3" class="col-4"></div>
+        </div>
+
+        <div class="row justify-content-center">
+          <div id="square4" class="col-4"></div>
+          <div id="square5" class="col-4"></div>
+          <div id="square6" class="col-4"></div>
+        </div>
+
+        <div class="row justify-content-center">
+          <div id="square7" class="col-4"></div>
+          <div id="square8" class="col-4"></div>
+          <div id="square9" class="col-4"></div>
+        </div>
+      </div>
+      <div class="text-center my-5">
+        <button id="startGame" class="btn btn-success d-inline-block px-3 py-2">
+          Start Game
+        </button>
+      </div>
+    </div>
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.min.js"
+      integrity="sha384-cVKIPhGWiC2Al4u+LWgxfKTRIcfu0JTxR+EQDz/bgldoEyl4H0zUF0QKbrJ0EcQF"
+      crossorigin="anonymous"
+    ></script>
     <script src="app.js"></script>
   </body>
 </html>
